@@ -1,0 +1,14 @@
+.body{
+    height: 100vw;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12,1fr);
+    
+    
+    
+    
+    
+    
+    
+    }

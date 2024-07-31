@@ -1,0 +1,53 @@
+body{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,1fr);
+    border: 1px solid #000;
+
+
+
+}   
+
+p{
+     margin: 0px;
+
+}
+
+
+
+#header{
+grid-column: 1/13;
+grid-row: 1/1;
+background-color: rgb(237,60,216);}
+
+#menu{
+grid-column: 1/13;
+grid-row: 2/2;
+background-color: rgb(31, 130, 222);}
+
+
+
+#left{
+grid-column: 1/4;
+grid-row: 3/12;
+background-color: lightgreen;}
+
+
+#content{
+grid-column: 4/10;
+grid-row: 3/12;
+background-color: limegreen;}
+
+
+#right{
+grid-column: 10/13;
+grid-row: 3/12;
+background-color: rgb(225, 172, 73);}
+
+
+
+
+#footer{
+grid-column: 1/13;
+grid-row: 12/12;
+background-color: rgb(143, 167, 199);}
